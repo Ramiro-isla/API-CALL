@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body #container {
+  display: grid;
+  grid-template-columns: repeat(3, 0.2fr);
+}
+body #container dl {
+  display: flex;
+  flex-direction: column;
+}
+body #container dl dt {
+  border: 1px solid black;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+body #container dl dd {
+  border: 1px solid black;
+  margin: 0;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
